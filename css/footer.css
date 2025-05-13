@@ -1,0 +1,73 @@
+footer {
+    background-color: #0e0e0e;
+    color: #f0f0f0;
+    padding: 40px 20px 20px;
+    font-family: "Proxima Nova 300", sans-serif;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-info {
+    max-width: 400px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.footer-separator {
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    margin-left: 20px; /* pequeno espaço entre info e barra */
+}
+
+.shortcuts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+.shortcuts button {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    width: 160px;
+    text-align: left;
+}
+
+.shortcuts button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: #aaa;
+    width: 100%;
+}

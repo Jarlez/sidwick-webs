@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" && lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidwick</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about-us.css">
+    <link rel="stylesheet" href="css/custom-solutions.css">
+    <link rel="stylesheet" href="css/certifications.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" target="_self">Home</a></li>
+                <li><a href="#about-us" target="_self">About us</a></li>
+                <li><a href="#custom-solutions" target="_self">Solutions</a></li>
+                <li><a href="#certifications" target="_self">Certifications</a></li>
+                <li><a href="#footer" target="_self">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="language-button">ENG</button>
+                <hr>
+                <button class="language-button">ESP</button>
+            </div>
+        </nav>
+    
+        <script>
+            const menuItems = document.querySelectorAll("nav ul li");
+    
+            menuItems.forEach(item => {
+                item.addEventListener("click", () => {
+                    menuItems.forEach(li => li.classList.remove("active"));
+                    item.classList.add("active");
+                });
+            });
+        </script>
+    </header>
+    
+
+    <main>
+        <section class="home" id="home">
+            <!-- Seção 1 -->
+            <section class="home-1">
+                <img src="images/img1.png" alt="Integrated solutions for health services">
+                <div class="overlay-text">
+                    <h1>Integrated solutions for health services</h1>
+                    <p>We are an Argentina-based pharmaceutical company with over 20 years of experience, committed to
+                        adding value to the regional and global healthcare market.</p>
+                </div>
+            </section>
+
+            <!-- Seção 2 -->
+
+            <section class="home-2">
+                <div class="overlay-text">
+                    <h2>Shaping the future of healthcare</h2>
+                    <p>From concept to completion, we specialize in assisting both local and international companies
+                        seeking to launch their services to the LatAm market, focusing on identifying the best business
+                        opportunities in both public and private sectors, providing customized top-quality solutions to
+                        fulfill our client’s needs.</p>
+                </div>
+            </section>
+
+
+            <!-- Seção 3 -->
+            <section class="home-3">
+                <div class="background-overlay"></div>
+
+                <div class="overlay-text">
+                    <div class="text-content">
+                        <h2>+20 years of experience and counting</h2>
+                        <p>Supplying generic products to the HHS and unions in several programs with funding and under
+                            World Bank and BID regulations.</p>
+
+                        <div class="circle-container">
+                            <div class="circle1">2002</div>
+                            <div class="circle2">2005</div>
+                            <div class="circle3">2010</div>
+                            <div class="circle4">
+                                <p>Agreement for the representation of HiGlance Laboratories, from India, in the
+                                    Ecuatorian market.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Seção 4 -->
+<!-- Carousel Wrapper -->
+<section class="home-4">
+    <h2>Sidwick in numbers</h2>
+
+    <div id="sidwickCarousel" class="carousel slide" data-bs-interval="6000" data-bs-pause="true">
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card">
+                <img src="images/img4.png" alt="Service 1">
+                <h3>38 bids won</h3>
+                <p>8 Consecutive years of 80% exclusive supplies to MoH Argentina under World Bank Finance.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="images/img5.png" alt="Service 2">
+                <h3>99%</h3>
+                <p>Institutional and HMOs collection efficiency.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="images/img6.png" alt="Service 3">
+                <h3>80%</h3>
+                <p>Involvement in the Reproductive Health Program for providing oral and injectable contraceptives.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img4.png" alt="Service 4">
+                <h3>50 partners</h3>
+                <p>Global suppliers and distribution networks established.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img-custom-solutions-1.png" alt="Service 5">
+                <h3>12 countries</h3>
+                <p>International presence and successful partnerships across Latin America.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img-custom-solutions-3.png" alt="Service 6">
+                <h3>24/7 Support</h3>
+                <p>Always available customer and institutional support services.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img-custom-solutions-2.png" alt="Service 7">
+                <h3>250+ products</h3>
+                <p>Diverse pharmaceutical and healthcare solutions portfolio.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img1.png" alt="Service 8">
+                <h3>20 audits passed</h3>
+                <p>Compliance with WHO, MoH and ISO quality standards.</p>
+            </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img6.png" alt="Service 9">
+                <h3>45 team members</h3>
+                <p>Specialized professionals across departments and regions.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="/sidwick-website/images/img2.png" alt="Service 10">
+                <h3>ISO Certified</h3>
+                <p>Operational excellence and certified quality systems in place.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#sidwickCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#sidwickCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+
+</section>
+
+
+
+            <!-- Seção 5 -->
+            <section class="home-5">
+                <h2>Our clients</h2>
+                <div class="gallery">
+                    <img src="images/logo-swiss-medical.png" alt="Swiss Medical">
+                    <img src="images/logo-sancor-salud.webp" alt="Sancor Salud">
+                    <img src="images/logo-galeno.png" alt="Galeno">
+                    <img src="images/logo-omint.png" alt="Omint">
+                    <img src="images/logo-medicus.png" alt="Medicus">
+                </div>
+            </section>
+
+        </section>
+
+
+        <section class="about-us" id="about-us">
+            <section class="about-us-first-container ">
+                <div class="about-us-header">
+                    <h2>About us</h2>
+                    <p>Credencial Payments, By Urbana and PoGoMED S.A., work collaboratively to enhance Sidwick's
+                        transactional and financial procedures, connecting stakeholders in the healthcare sector through
+                        payment solutions and cross-border services tailored to the market's demands.</p>
+                </div>
+                <section class="about-us-first-section">
+                    
+                    <h3 class="about-us-title">SIDWICK</h3>
+
+                    
+                    <div class="about-us-divider"></div>
+
+                    
+                    <div class="about-us-logos">
+                        <img src="images/img-credencial.png" alt="Credencial Payments" />
+                        <div class="about-us-vdivider"></div>
+                        <img src="images/img-byurbana.png" alt="By Urbana" />
+                        <div class="about-us-vdivider"></div>
+                        <img src="images/img-pogomed.png" alt="Pogomed" />
+                    </div>
+
+                </section>
+                <p>Together, we are committed to offering our clients a more articulate and fluent experience that
+                    empower businesses and enhances customer satisfaction throughout all sectors.</p><br>
+            </section>
+
+            </div>
+
+
+
+            <section class="about-us-second-container">
+                <div class="section-line"></div>
+                <div class="about-us-second-header">
+                    <h2>Mission and Core Values</h2>
+                <div class="text-content">
+                    <p>
+                    <mark>Our mission: where financial processing meets healthcare. <br>At Sidwick we combine
+                    <u>the best of both worlds:</u> 
+                    financial processing and healthcare, assisting institutions worldwide in entering the Latin America and Asian markets by identifying prime business opportunities, improving facilities, streamlining operational processes and simplifying payment systems. <br> <br>All this securing milestones in successful and running businesses. <br> <br>Our core values:
+
+                    <br>Compassion – Integrity – Expertise – Connections – Commitment – Excellence</mark>
+                    
+                </div>
+                </div>
+            </section>
+            
+            
+            
+
+            <section class="group">
+                <h2>Sidwick Group</h2>
+                <div class="perfil">
+            
+                <div class="person">
+                    <img src="images/perfil1.png" alt="Carlos Gorleri">
+                    <h3>CARLOS GORLERI</h3>
+                    <p>Director & Shareholder of Sidwick.</p>
+                    <p>President and CEO at Credencial Payments LatAm.</p>
+                    <p>35+ years LatAm leadership in processing prescriptions and payments.</p>
+                    <p>Global funding and regional social security process management.</p>
+                </div>
+            
+                <div class="person">
+                    <img src="images/perfil2.png" alt="Dherendra Oli">
+                    <h3>DHERENDRA OLI</h3>
+                    <p>Director & Shareholder of Sidwick. Head of Business Development.</p>
+                    <p>Former AVP – Mylan/Viatris, Former Director – Jubilant Pharma, Former Business Head – ASIA MSN.</p>
+                    <p>25+ years of cross continent business leadership – LatAm & Asia.</p>
+                    <p>US/EU global & regional funding, NGOs, UNFDA, world bank and social security processes expert.</p>
+                </div>
+            
+                <div class="person">
+                    <img src="images/perfil3.png" alt="Carlos Vázquez">
+                    <h3>CARLOS VÁZQUEZ</h3>
+                    <p>Director & Shareholder of Sidwick.</p>
+                    <p>President of ByUrbana – Argentina/México.</p>
+                    <p>35+ years of international business expertise.</p>
+                    <p>LatAm Government relations and regional tie-ups.</p>
+                    <p>Management of prescriptions and payment processing for large pharmacy chain groups in LatAm.</p>
+                </div>
+        
+                </div>
+            </section>
+            
+
+            <section class="our-track-record">
+                <h2>Our track record</h2>
+            
+                <div class="stats">
+                    <div class="stat-box">
+                        <img src="/sidwick-website/images/sticky-contract.png" alt="Bids Icon" class="stat-icon" />
+                        <span>38 bids won</span>
+                    </div>
+                
+                    <div class="stat-box">
+                        <img src="/sidwick-website/images/sticky-group.png" alt="Clients Icon" class="stat-icon" />
+                        <span>+20M clients</span>
+                    </div>
+                </div>
+            
+                <ul class="track-items">
+                    <li>
+                        <img src="/sidwick-website/images/sticky-check.png" alt="check icon" class="check-icon">
+                        8 consecutive years of 80% exclusive supplies to MoH Argentina under World Bank Finance.
+                    </li>
+                    <li>
+                        <img src="/sidwick-website/images/sticky-check.png" alt="check icon" class="check-icon">
+                        99% Institutional and HMOs collection efficiency.
+                    </li>
+                    <li>
+                        <img src="/sidwick-website/images/sticky-check.png" alt="check icon" class="check-icon">
+                        80% Involvement in the Reproductive Health Program for providing oral and injectable contraceptives.
+                    </li>
+                    <li>
+                        <img src="/sidwick-website/images/sticky-check.png" alt="check icon" class="check-icon">
+                        36% Flu vaccines distributed for programs against influenza.
+                    </li>
+                    <li>
+                        <img src="/sidwick-website/images/sticky-check.png" alt="check icon" class="check-icon">
+                        18% Involvement in the procurement process of the Remediar Program for the supply of generic medicines.
+                    </li>
+                    </ul>
+            </section>
+
+            <hr>
+        </section>
+
+        
+
+        <section class="custom-solutions" id="custom-solutions">
+
+            <h2>Custom Solutions</h2>
+
+            <div class="market">
+                <img src="images/img-custom-solutions-1.png" alt="market">
+                <div class="text-content">
+                    <h3>Market Research and Opportunity Analysis</h3>
+                    <p>We conduct market research, target identification, and business potential analysis, assessing the
+                        feasibility of products and services across different segments. <br>Our core focus and close
+                        alignments are in tenders (global/local) and volumen buyers (chain of pharmacies).</p>
+                </div>
+            </div>
+
+            <div class="prescription">
+                <img src="images/img-custom-solutions-2.png" alt="business">
+                <div class="text-content">
+                    <h3>Prescription Processing, Distribution, and Payments</h3>
+                    <p>We manage prescription validation and processing, fund disbursement, and payment collection
+                        through digital platforms, facilitating both domestic and international transactions.</p>
+                </div>
+            </div>
+
+            <div class="infrastructure">
+                <img src="images/img-custom-solutions-3.png" alt="business">
+                <div class="text-content">
+                    <h3>Infrastructure, Regulations, and Logistics</h3>
+                    <p>Legal coverage, technical support, and packaging solutions; we manage comprehensive
+                        representation and distribution through local laboratories and strategic partners.<br> Our
+                        logistics, in collaboration with OCA and Andreani, enable efficient production, importation, and
+                        distribution of locally registered products.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="certifications" id="certifications">
+
+            <h2>Market Segments Worldwide</h2>
+            <div class="MSW">
+                <div class="boxes-container">
+                    <div class="box">National and provincial government supplies</div>
+                    <div class="box">Social security tenders and demand processing</div>
+                    <div class="box">Payers of health services: medical insurances, prepaid medicine</div>
+                    <div class="box">Health Maintenance Organizations</div>
+                    <div class="box">Volume buyers and White labelling for pharmacy chains</div>
+                </div>
+            </div>
+        
+            <div class="together-box">
+                <span class="title">Together wherever you go</span>
+                <span class="text">We operate in México, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panamá, Colombia, Bolivia, Paraguay, Uruguay and Argentina.</span>
+            </div>
+        
+            <h2>Market Segments in Argentina</h2>
+            <div class="MSA">
+                <div class="boxes-container">
+                    <div class="box">Plan Nacional de Vacunación (National Vaccine Plan)</div>
+                    <div class="box">Programa Remediar (essential medicines coverage)</div>
+                    <div class="box">Reproductive health</div>
+                    <div class="box">Provincial tenders/supplies</div>
+                    <div class="box">Volume buyers - Chain/Insurers</div>
+                    <div class="box">Chronic treatments</div>
+                </div>
+            </div>
+        
+            <div class="types">
+                <mark><h3>TYPES OF TENDERS</h3>
+                    <p>Local (Federal – Provincial)</p>
+                    <p>International with finance from multilateral organisms (BID, Corporación Financiera Internacional, OMS)</p>
+                </mark>
+            </div>
+        
+        </section>
+        
+
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-info">
+                    <p>Av. Corrientes 800, Piso 34, Monserrat, C1043AAU, Ciudad Autónoma de Buenos Aires, Argentina</p>
+                    <p>Contacto: +54 11 2222 3333</p>
+                    <p>Email: business@sidwick.com</p>
+                </div>
+                <div class="footer-separator"></div>
+            </div>
+
+            <div class="shortcuts">
+                <button>About us</button>
+                <button>Solutions</button>
+                <button>Certifications</button>
+                <button>Contact</button>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Sidwick 2025. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#sidwickCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#sidwickCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <!-- Script para avanço contínuo ao passar o mouse sobre as setas -->
+    <script>
+        const carouselElement = document.querySelector('#sidwickCarousel');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+        interval: 6000,
+        pause: true
+    });
+
+    const prevBtn = carouselElement.querySelector('.carousel-control-prev');
+    const nextBtn = carouselElement.querySelector('.carousel-control-next');
+
+    let prevInterval, nextInterval;
+
+    prevBtn.addEventListener('mouseenter', () => {
+        carousel.prev(); // troca imediatamente
+        prevInterval = setInterval(() => carousel.prev(), 1500);
+    });
+    prevBtn.addEventListener('mouseleave', () => clearInterval(prevInterval));
+
+    nextBtn.addEventListener('mouseenter', () => {
+        carousel.next(); // troca imediatamente
+        nextInterval = setInterval(() => carousel.next(), 1500);
+        });   
+    nextBtn.addEventListener('mouseleave', () => clearInterval(nextInterval));
+    </script>
+
+</body>
+
+</html>
