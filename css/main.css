@@ -4,29 +4,41 @@
     padding: 0;
 }
 
+
 @font-face {
-    font-family: "Proxima Nova Regular" sans-serif;
+    font-family: "Proxima Nova Regular";
     src: url("/sidwick-website/Fonts/proxima-nova-regular.otf") format("opentype");
-
-    font-family: "Proxima Nova Bold" sans-serif;
-    src: url("/sidwick-website/Fonts/proxima-nova-bold.otf") format("opentype");
-
-    font-family: "Proxima Nova Extrabold" sans-serif;
-    src: url("/sidwick-website/Fonts/proxima-nova-extrabold.otf") format("opentype");
-
-    font-family: "Myriad Pro Regular" sans-serif;
-    src: url("/sidwick-website/Fonts/MyriadPro-Regular.otf") format("opentype");
-
-    font-family: "Playfair Display Regular" sans-serif;
-    src: url("/sidwick-website/Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
-    
-    font-family: "Playfair Display Italic" sans-serif;
-    src: url("/sidwick-website/Fonts/PlayfairDisplay-Italic.ttf") format("truetype");
-
 }
+
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("/sidwick-website/Fonts/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Proxima Nova Extrabold";
+    src: url("/sidwick-website/Fonts/proxima-nova-extrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("/sidwick-website/Fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url("/sidwick-website/Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair Display Italic";
+    src: url("/sidwick-website/Fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+}
+
 
 .italico {
     font-style: italic;
+    font-family: "Playfair Display Italic", serif;
 }
 
 .negrito {
@@ -37,12 +49,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Proxima Nova Regular", sans-serif;
 }
 
-
 main {
-    padding-top: 100px; 
+    padding-top: 100px;
     padding-bottom: 160px;
     max-width: 1200px;
     margin: 0 auto;
