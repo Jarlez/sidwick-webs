@@ -1,5 +1,5 @@
 footer {
-    background-color: #0e0e0e;
+    background-color: #3f3f3f;
     color: #f0f0f0;
     padding: 40px 20px 20px;
     font-family: "Proxima Nova 300", sans-serif;
@@ -35,9 +35,9 @@ footer {
 
 .footer-separator {
     width: 1px;
-    height: 100px;
+    height: 150px;
     background-color: white;
-    margin-left: 20px; /* pequeno espaço entre info e barra */
+    margin-left: 20px; 
 }
 
 .shortcuts {
@@ -49,20 +49,19 @@ footer {
 }
 
 .shortcuts button {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: white;
-    padding: 10px 20px;
     cursor: pointer;
     border: none;
     transition: all 0.3s ease;
-    width: 160px;
     text-align: left;
+    transform-origin: left;
 }
 
 .shortcuts button:hover {
-    background-color: #444;
-    transform: scale(1.05);
+    transform: scale(1.3);
 }
+
 
 .copyright {
     text-align: center;

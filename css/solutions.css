@@ -1,0 +1,56 @@
+.solutions {
+    padding: 40px 10px;
+    background-color: white;
+}
+
+.solutions h2 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 2em;
+    color: #157762;
+    font-family: "Proxima Nova Regular", sans-serif;
+    
+}
+
+.solutions .market,
+.solutions .prescription,
+.solutions .infrastructure {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.solutions img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+.solutions .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.solutions .text-content h3 {
+    font-family: "Proxima Nova Extrabold", sans-serif;
+    color: #157762;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.solutions .text-content p {
+    font-family: "Proxima Nova Regular", sans-serif;
+    color: #157762;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 440px;
+}
+
+
+

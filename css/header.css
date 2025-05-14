@@ -1,3 +1,17 @@
+header {
+    width: 100%;
+    background-color: white;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Proxima Nova Regular", sans-serif;
+}
+
+
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -7,7 +21,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px; 
     margin: 0;
     padding: 0;
 }
@@ -43,7 +57,7 @@ nav ul li a {
 nav .language-selector {
     margin-left: 20px;
     display: flex;
-    
+    align-items: center;
 }
 
 nav .language-button {
@@ -53,7 +67,14 @@ nav .language-button {
     border-radius: 4px;
     cursor: pointer;
     background-color: transparent;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: normal;
+    transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
+}
+
+nav .language-button.selected {
+    background-color: transparent; 
+    color: #157762; 
+    font-weight: bold; 
 }
 
 nav .language-button:hover {
@@ -61,9 +82,3 @@ nav .language-button:hover {
     color: white;
 }
 
-nav .language-selector hr {
-    margin: 0 10px;
-    border: none;
-    border-left: 1px solid rgb(180, 180, 180);
-    
-}

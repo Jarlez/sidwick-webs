@@ -30,14 +30,15 @@
 }
 
 .about-us-title {
-  font-size: 4rem;
-  background-color: #f7d4d4;
+  font-size: 3.5rem;
+  font-family: "Proxima Nova Extrabold", sans-serif;
+  font-weight: bold;
   color: #157762; 
   line-height: 1;
 }
 
 .about-us-divider {
-  width: 35%;
+  width: 50%;
   height: 1px;
   background-color: #157762;
   margin-top: 5px;
@@ -140,21 +141,22 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  margin-top: 80px; 
+  margin-top: 80px;
+  padding: 0 20px;
 }
-
 
 .person {
   position: relative;
   background-color: #ffffff;
   border-radius: 20px;
   padding: 100px 30px 40px;
-  max-width: 360px; 
+  max-width: 400px; /* Aumentado para mais espaço */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transform: translateY(30px);
   animation: fadeSlideUp 0.8s ease forwards;
   overflow: visible;
+  transition: all 0.3s ease;
 }
 
 .person img {
@@ -171,7 +173,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-
 .person:nth-child(1) {
   animation-delay: 0.2s;
 }
@@ -182,27 +183,30 @@
   animation-delay: 0.6s;
 }
 
-
 .person:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-
 }
+
 .person h3 {
   font-family: "Proxima Nova Bold", sans-serif;
   color: #157762;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 22px; /* Aumentado */
+  margin-bottom: 12px;
 }
 
 .person p {
   font-family: "Proxima Nova Regular", sans-serif;
   color: #157762;
-  font-size: 14px;
+  font-size: 16px; /* Aumentado */
   margin-bottom: 10px;
-  line-height: 1.4;
+  line-height: 1.6; /* Melhor legibilidade */
 }
+
+.negrito {
+  font-weight: bold;
+}
+
 
 
 /* OUR TRACK RECORD */
