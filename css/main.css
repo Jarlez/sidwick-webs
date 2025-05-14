@@ -7,32 +7,32 @@
 
 @font-face {
     font-family: "Proxima Nova Regular";
-    src: url("/sidwick-website/Fonts/proxima-nova-regular.otf") format("opentype");
+    src: url("/Fonts/proxima-nova-regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Proxima Nova Bold";
-    src: url("/sidwick-website/Fonts/ProximaNova-Bold.otf") format("opentype");
+    src: url("/Fonts/proxima-nova-bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Proxima Nova Extrabold";
-    src: url("/sidwick-website/Fonts/proxima-nova-extrabold.otf") format("opentype");
+    src: url("/Fonts/proxima-nova-extrabold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Myriad Pro Regular";
-    src: url("/sidwick-website/Fonts/MyriadPro-Regular.otf") format("opentype");
+    src: url("/Fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Playfair Display Regular";
-    src: url("/sidwick-website/Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    src: url("/Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Playfair Display Italic";
-    src: url("/sidwick-website/Fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+    src: url("/Fonts/PlayfairDisplay-Italic.ttf") format("truetype");
 }
 
 
